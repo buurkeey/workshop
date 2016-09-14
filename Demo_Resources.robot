@@ -14,7 +14,7 @@ ${PLATFORM_VERSION}    4.3
 ${APP_PACKAGE}    com.experitest.ExperiBank
 ${APP_ACTIVITY}    .LoginActivity
 ${UDID}           ${EMPTY}
-${REMOTE_URL}     http://localhost:4723/wd/hub
+${REMOTE_URL}     http://127.0.0.1:4723/wd/hub
 ${API_KEY}        gQmToVN1odsGrJGREt0TYYH6213c8O0n
 ${AUTOMATION_NAME}    Appium
 
