@@ -9,13 +9,12 @@ Library           AppiumLibrary
 ${P}              ${PLATFORM_NAME}
 ${DEVICE_NAME}    4df133d912e16f0d
 ${PLATFORM_NAME}    ANDROID
-${APP}            \Users\IEUser\Desktop\Mobil\Applications\eribank.apk    # \Users\IEUser\Desktop\Mobil\Applications\eribank.apk
+${APP}            \    # \Users\IEUser\Desktop\Mobil\Applications\eribank.apk
 ${PLATFORM_VERSION}    4.3
 ${APP_PACKAGE}    com.experitest.ExperiBank
 ${APP_ACTIVITY}    .LoginActivity
 ${UDID}           ${EMPTY}
 ${REMOTE_URL}     http://localhost:4723/wd/hub
-${API_KEY}        gQmToVN1odsGrJGREt0TYYH6213c8O0n
 ${AUTOMATION_NAME}    Appium
 
 *** Keywords ***
