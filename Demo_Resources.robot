@@ -7,14 +7,14 @@ Library           AppiumLibrary
 &{login_button}    ANDROID=id=com.experitest.ExperiBank:id/loginButton
 &{logout}         ANDROID=id=com.experitest.ExperiBank:id/logoutButton
 ${P}              ${PLATFORM_NAME}
-${DEVICE_NAME}    4df133d912e16f0d
+${DEVICE_NAME}    emulator-5554    # 4df133d912e16f0d
 ${PLATFORM_NAME}    ANDROID
 ${APP}            \    # \Users\IEUser\Desktop\Mobil\Applications\eribank.apk
 ${PLATFORM_VERSION}    4.3
 ${APP_PACKAGE}    com.experitest.ExperiBank
 ${APP_ACTIVITY}    .LoginActivity
 ${UDID}           ${EMPTY}
-${REMOTE_URL}     http://localhost:4723/wd/hub
+${REMOTE_URL}     ${EMPTY}    # http://localhost:4723/wd/hub
 ${AUTOMATION_NAME}    Appium
 
 *** Keywords ***
@@ -25,6 +25,7 @@ login_and_verify
     Input Text    &{login_password}[${P}]    ${password}
     Click Element    &{login_button}[${P}]
     Sleep    2
+    Comment    Swipe    ${0}    ${600}    ${0}    ${0}
     Wait Until Page Contains Element    &{logout}[${P}]
 
 logout
