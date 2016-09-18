@@ -25,7 +25,7 @@ login_and_verify
     Input Text    &{login_password}[${P}]    ${password}
     Click Element    &{login_button}[${P}]
     Sleep    2
-    Comment    Swipe    ${0}    ${600}    ${0}    ${0}
+    Swipe    ${0}    ${600}    ${0}    ${0}
     Wait Until Page Contains Element    &{logout}[${P}]
 
 logout
