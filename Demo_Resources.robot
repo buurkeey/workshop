@@ -10,11 +10,11 @@ ${P}              ${PLATFORM_NAME}
 ${DEVICE_NAME}    emulator-5554    # 4df133d912e16f0d
 ${PLATFORM_NAME}    ANDROID
 ${APP}            \    # \Users\IEUser\Desktop\Mobil\Applications\eribank.apk
-${PLATFORM_VERSION}    4.3
+${PLATFORM_VERSION}    4.3.1
 ${APP_PACKAGE}    com.experitest.ExperiBank
 ${APP_ACTIVITY}    .LoginActivity
 ${UDID}           ${EMPTY}
-${REMOTE_URL}     http://127.0.0.1:4723/wd/hub
+${REMOTE_URL}     http://localhost:4723/wd/hub
 ${AUTOMATION_NAME}    Appium
 
 *** Keywords ***
