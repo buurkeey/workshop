@@ -6,9 +6,9 @@ Login_Logout
     [Setup]
     Comment    General version    Open Application    ${REMOTE_URL}    platformName=${PLATFORM_NAME}    platformVersion=${PLATFORM_VERSION}    app=${APP}
     ...    appPackage=${APP_PACKAGE}    appActivity=${APP_ACTIVITY}    deviceName=${DEVICE_NAME}
-    Comment    Open Application    ${REMOTE_URL}    platformName=${PLATFORM_NAME}    platformVersion=${PLATFORM_VERSION}    app=${APP}    deviceName=${DEVICE_NAME}
-    ...    deviceOrientation=${DEVICE_ORIENTATION}    appiumVersion=${APPIUM_VERSION}    browserName=${BROWSER_NAME}
-    Open Application    ${REMOTE_URL}    platformName=${PLATFORM_NAME}    deviceName=${DEVICE_NAME}
+    Open Application    ${REMOTE_URL}    platformName=${PLATFORM_NAME}    platformVersion=${PLATFORM_VERSION}    app=${APP}    deviceName=${DEVICE_NAME}    deviceOrientation=${DEVICE_ORIENTATION}
+    ...    appiumVersion=${APPIUM_VERSION}    browserName=${BROWSER_NAME}
+    Comment    Open Application    ${REMOTE_URL}    platformName=${PLATFORM_NAME}    deviceName=${DEVICE_NAME}
     Login    company    company
     Wait Until Page Contains Element    id=com.experitest.ExperiBank:id/logoutButton
     Logout

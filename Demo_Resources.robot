@@ -2,14 +2,14 @@
 Library           AppiumLibrary
 
 *** Variables ***
-${DEVICE_NAME}    dc672197    # 4df133d912e16f0d \ \ #emulator-5554 \ \ #Samsung Galaxy S4 Emulator
+${DEVICE_NAME}    Samsung Galaxy S4 Emulator    # 4df133d912e16f0d \ \ #emulator-5554 \ \ #Samsung Galaxy S4 Emulator
 ${PLATFORM_NAME}    Android
-${APP}            \    # \Users\IEUser\Desktop\Mobil\Applications\eribank.apk \ \ #sauce-storage:workshopAPP
-${PLATFORM_VERSION}    4.3.1    # Emulator:4.3.1 \ \ #sauce:4.3
+${APP}            sauce-storage:eribank.apk    # \Users\IEUser\Desktop\Mobil\Applications\eribank.apk \ \ #sauce-storage:eribank.apk
+${PLATFORM_VERSION}    4.3    # Emulator:4.3.1 \ \ #sauce:4.3
 ${APP_PACKAGE}    com.experitest.ExperiBank
 ${APP_ACTIVITY}    .LoginActivity
 ${UDID}           ${EMPTY}
-${REMOTE_URL}     http://localhost:4723/wd/hub    # http://localhost:4723/wd/hub \ \ #http://bugs:d195e4e5-f0d6-4111-831c-4f8ae2dc50e1@ondemand.saucelabs.com:80/wd/hub
+${REMOTE_URL}     http://bugs:d195e4e5-f0d6-4111-831c-4f8ae2dc50e1@ondemand.saucelabs.com:80/wd/hub    # http://localhost:4723/wd/hub \ \ #http://bugs:d195e4e5-f0d6-4111-831c-4f8ae2dc50e1@ondemand.saucelabs.com:80/wd/hub
 ${AUTOMATION_NAME}    Appium
 ${TIMEOUT}        60
 ${BROWSER_NAME}    ${EMPTY}
